@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+
+
+.szazalek_szamitas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.szamolas{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 200px;
+    width: 50%;
+    background-color: grey;
+}
+
+
+.container div{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container div p{
+    position: absolute;
+}
+.container div input{
+    height: 40px;
+    width: 40px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#jel{
+    position: absolute;
+    margin-left: 60px;
+}
+
+
+.gombok{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(192, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gombok div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gombok div div{
+    height: 30px;
+    width: 30px;
+    background-color: cornsilk;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+.gombok div div:hover{
+    cursor: pointer;
+    background-color: rgb(249, 235, 179);
+}
+.gombok div div:active{
+    border: 3px solid rgb(77, 77, 77);
+
+}
+
+
+#reset{
+    position: fixed;
+    right: 0;
+    font-size: 50px;
+    margin: auto;
+    z-index: 1;
+} 
+.megoldas{
+    background-color: aliceblue;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kamat.css">
+    <link rel="icon" href="graduation-cap.png">
+</head>
+<body>
+    <div class="szazalek_szamitas">
+        <div class="szamolas">
+            <div class="container">
+                <div class="szam">
+                    <input type="text" id="szam">
+                </div>
+                <div class="szazalek">
+                    <input type="text" id="szazalek">
+                    <p id="jel">%</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="valasz_szam">
+                    <p id="valasz_szam_p"></p>
+                    <input type="text" id="valasz_szam">
+                </div>
+                <div class="valasz_szazalek">
+                     <input type="text" id="valasz_szazalek">
+                     <p id="valasz_szazalek_p"></p>
+                    <p id="jel">%</p>
+                </div>
+            </div>
+            <div class="megoldas">
+                <p id="megoldas"></p>
+            </div>
+            <div class="gombok">
+                <div>
+                    <div id="valaszto_fent"></div>
+                    <div id="valaszto_lent"></div>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <button id="reset">Reset</button> 
+
+    <div class="kamatos_kamat_szamitas">
+        <div class="kamatos_kamat_szamolas">
+            <div class="adatok">
+                <div><input type="number" id="kamat"></div>
+                <div><input type="text" id="toke"></div>
+                <div><input type="text" id="ismetles"></div>
+            </div>
+            <div id="gomb"></div>
+            <div class="megoldas_kamat"><p id="megoldas_kamat"></p></div>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
