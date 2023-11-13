@@ -21,7 +21,6 @@ document.getElementById("valaszto_fent").onclick = function(){
     szamolo = document.getElementById("szazalek").value / document.getElementById("szam").value;
     szamolo = parseFloat(szamolo.toFixed(3));
     eredmeny = z_szam / szamolo;
-    eredmeny = parseFloat(eredmeny.toFixed(3));
     megoldas = document.getElementById("megoldas");
     megoldas.textContent =document.getElementById("szazalek").value + "/" + document.getElementById("szam").value + "=" + szamolo + " | " + z_szam + "/" + szamolo + "=" + eredmeny;
     document.getElementById("valasz_szam_p").innerHTML = eredmeny;
@@ -32,7 +31,6 @@ document.getElementById("valaszto_lent").onclick = function(){
     szamolo = document.getElementById("szam").value / document.getElementById("szazalek").value;
     szamolo = parseFloat(szamolo.toFixed(3));
     eredmeny = z_szam / szamolo;
-    eredmeny = parseFloat(eredmeny.toFixed(3));
     megoldas = document.getElementById("megoldas");
     megoldas.textContent = document.getElementById("szam").value + "/" + document.getElementById("szazalek").value + "=" + szamolo + " | " + z_szam + "/" + szamolo + "=" + eredmeny;
     document.getElementById("valasz_szazalek_p").innerHTML = eredmeny;   
